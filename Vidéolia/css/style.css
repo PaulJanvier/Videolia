@@ -1,16 +1,22 @@
+
 .navbar{
 width: 100%;
 height: 75px;
 text-align: center;
-background-color: black;
+background-color: #313131;
 color: white;
-text-decoration: none;
+}
+a:hover{
+	background-color: white
 }
 .navbar a{
 	margin:auto;
 	text-align: center;
 	color: white;
 	padding: 0px;
+	font-family: Impact;
+
+    font-size: 1.6em;
 }
 .logotexte{
 	align-items: left;
@@ -20,9 +26,162 @@ text-decoration: none;
 {
 	margin: left;
 	align-items: left;
+	width: 300px;
+	margin-right: 90px;
 }
-#texte
+.bloc
+{
+	margin: auto;
+}
 {
 	margin: right;
 	align-content: right;
+}
+.thumb{
+	float: left;
+	width: 50%;
+	height: 650px;
+	overflow: hidden;
+}	
+#droite
+{
+	float: left;
+	margin-left: 40px;
+}
+#texte
+{
+	margin-left: 500px;
+}
+#gauche
+{
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.ArticleTexte
+{
+	padding-left: 20px;
+	padding-right: 20px;
+	font-family: monospace;
+	font-size: 1.4em;
+}
+.B2A2{
+	margin: auto;
+	align-items: auto;
+	width: 1500px;
+	height: 600px;
+}
+.B2A{
+	margin: auto;
+	align-items: auto;
+	height: 3050px;
+}
+.INSCRIPTIONINFO
+{
+	padding-left: 500px;
+	padding-right: 500px;
+}
+.CONNEXIONINFO
+{
+	padding-top: 150px;
+	padding-left: 500px;
+	padding-right: 500px;
+}
+.html
+{
+	margin: 0;
+	display: table;
+	height: 100%
+	width:100%;
+}
+footer {
+height: 300px;
+background: black;
+		}
+.container
+{
+	color:white;
+}
+.container2
+{
+	color: white;
+	margin: auto;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+.container3
+{
+	color: black;
+	height: 100%;
+	height: 280px;
+}
+.container4
+{
+	color: white;
+	margin-left: 20px;
+	margin-top: 30px;
+}
+.container5
+{
+	color: white;
+	margin-top: 500px;
+	margin-left: 20px;
+	margin-top: 30px;
+	margin: center;
+}
+#infogauche
+{
+	float: left;
+	overflow: hidden;
+	color:white;
+}
+.infodroite
+{
+	float: right;
+	width: 40%;
+	overflow: hidden;
+	color:white;
+	height: auto;
+}
+#rs1
+{
+	float: left;
+	padding-top: 30px;
+	width: 80px;
+	margin-right: 40px;
+}
+#rs2
+{	
+	float: left;
+	padding-top: 30px;
+	width: 80px;
+	margin-right: 40px;
+}
+#rs3
+{
+	float: left;
+	padding-top: 30px;
+	width: 80px;
+	margin-right: 40px;
+}
+.loader
+	{
+		margin: 15em 35em;
+		border: 16px solid #e4e3e3;
+		border-radius: 50%;
+		border-top: 24px solid #00BC43;
+		width: 300px;
+		height: 300px;
+		animation: spin 1.5s ease infinite;
+	}
+@keyframes spin {
+	0% {
+		transform: skew(100);
+	}
+	100%{
+		transform: rotate(360deg);
+	}
+}
+img
+{
+	width: 400px;
 }
